@@ -1,0 +1,29 @@
+.text{
+
+width: 161px;
+height: 36px;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+
+margin: 20px;
+/* identical to box height */
+
+letter-spacing: 0.15px;
+
+color: #000000;
+}
+body{
+    position: relative;
+}
+
+.textred{
+    color: red
+   
+}
+span,del{
+    color:#B2B1B9
+}
