@@ -1,3 +1,67 @@
+body{
+    
+}
+.L-icon
+{   
+    position: absolute;
+    width: 101px;
+    height: 74px;
+    left: 49px;
+    top: -7px;
+}
+
+.navbarbg
+{   
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+}
+.navbarbg a{
+    position: absolute;
+    top: 21px;
+    height: 20px;
+    left: 161px;
+    right: 22.77%;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.08px;
+}
+.R-icon
+{
+    position: absolute;
+    top: 19px;
+    height: 23px;
+    right: 48.78px;
+
+}
+.navbar-light{
+    
+    top: 44px;
+    padding: 0 75px;
+    width: 100%;
+    height: 60px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  0 75px ;
+    width: 100%;
+    height: 60px;
+    background: #F2F2F2;
+    
+    
+}
+
+
+
 img.d-block{
 height: 675px;
 align-items: center;
@@ -16,4 +80,5 @@ h5{
     text-align: center;
     letter-spacing: 0.07px;
     color: #FFFFFF;
+}
 }
