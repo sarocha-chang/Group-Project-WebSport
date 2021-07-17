@@ -1,60 +1,77 @@
-.text{
-
-width: 161px;
-height: 36px;
-
-font-family: Barlow;
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
-
-margin: 20px;
-/* identical to box height */
-
-letter-spacing: 0.15px;
-
-color: #000000;
-}
 body{
     position: relative;
+    background-color: white;
+}
+//ส่วนของภาพแสดงไอเทมใหม่ๆ
+
+div.carousel-text{
+margin: 25px 0 40px 0; 
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 1000;
+}
+h2{
+    font-weight: 1000;
 }
 img.d-block{
-    height: 675px;
+    width: 1500px;
     align-items: center;
-    }
-    
-.textred{
-    color: red
-   
+}
+#carouselExampleControls{
+    margin-bottom: 70px;
+}
+h5{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+}
+    //ส่วนของ All product 
+
+.text{
+    width: 161px;
+    height: 36px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+p{
+    margin-top: 10px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+}        
+p.textred{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: red   
 }
 span,del{
     color:#B2B1B9
 }
-.imgsize{
-    width:90%;
-    height:60%
-
+img.img-fluid{
+    height: 270px;
 }
-.imgsize2{
-    width:90%;
-    height:72%
-}
-p{
-    font-size: 1.1rem
-}
-
-.spacebox2{
-padding-top: 22px;
-}
-.spacebox{
-    padding-top: 30px;
+.col-3{
+    margin-bottom: 200px;
 }
 .border{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 23.08%;
-    background: #F5F5F5;
-}   
+width: 270px;
+height: 270px;
+border: 1px solid #F5F5F5;
+background-color: #F5F5F5;
+}
+.border p{
+    font-size: 1.1rem
+}
+div.row.gx-4{
+    margin-bottom: 150px;
+}
