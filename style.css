@@ -23,4 +23,26 @@ body {
 span, del {
   color: #B2B1B9;
 }
+
+.imgsize {
+  width: 90%;
+  height: 60%;
+}
+
+.imgsize2 {
+  width: 90%;
+  height: 72%;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.spacebox2 {
+  padding-top: 22px;
+}
+
+.spacebox {
+  padding-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
